@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits and Benefits</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><b>..FRUITS AND THEIR BENEFITS..</b></h1>
+        <div class="fruits-grid">
+            <div class="fruit" onclick="showPopup('apple')">
+                <img src="images/apple.jpg" alt="Apple">
+                <p>Apple</p>
+            </div>
+            <div class="fruit" onclick="showPopup('banana')">
+                <img src="images/banana.jpg" alt="Banana">
+                <p>Banana</p>
+            </div>
+            <div class="fruit" onclick="showPopup('orange')">
+                <img src="images/orange.jpg" alt="Orange">
+                <p>Orange</p>
+            </div>
+            <div class="fruit" onclick="showPopup('strawberry')">
+                <img src="images/strawberry.jpg" alt="Strawberry">
+                <p>Strawberry</p>
+            </div>
+            <div class="fruit" onclick="showPopup('grapes')">
+                <img src="images/grapes.jpg" alt="Grapes">
+                <p>Grapes</p>
+            </div>
+            <div class="fruit" onclick="showPopup('pineapple')">
+                <img src="images/pineapple.jpg" alt="Pineapple">
+                <p>Pineapple</p>
+            </div>
+            <div class="fruit" onclick="showPopup('mango')">
+                <img src="images/mango.jpg" alt="Mango">
+                <p>Mango</p>
+            </div>
+            <div class="fruit" onclick="showPopup('watermelon')">
+                <img src="images/watermelon.jpg" alt="Watermelon">
+                <p>Watermelon</p>
+            </div>
+            <div class="fruit" onclick="showPopup('pomegranate')">
+                <img src="images/pomogranate.jpg" alt="Pomegranate">
+                <p>Pomegranate</p>
+            </div>
+            <div class="fruit" onclick="showPopup('guava')">
+                <img src="images/guava.jpg" alt="Guava">
+                <p>Guava</p>
+            </div>
+            <div class="fruit" onclick="showPopup('papaya')">
+                <img src="images/papaya.jpg" alt="Papaya">
+                <p>Papaya</p>
+            </div>
+            <div class="fruit" onclick="showPopup('jackfruit')">
+                <img src="images/jackfruit.jpg" alt="Jackfruit">
+                <p>Jackfruit</p>
+            </div>
+           
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <img id="popup-img" src="" alt="Fruit Image">
+            <p id="popup-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
